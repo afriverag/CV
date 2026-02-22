@@ -45,12 +45,26 @@ header {
   ul {
     width: 100%;
     text-align: start;
-    list-style-type: none;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  li {
+    display: inline-flex;
+    padding-inline: 8px;
+    align-items: center;
   }
 
   a {
     text-decoration: none;
     color: #eee;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    &:hover {
+      color: #90b3cc;
+    }
   }
 }
 
