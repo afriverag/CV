@@ -26,7 +26,6 @@ body {
     auto-fill,
     minmax(350px, 1fr)
   );
-  grid-template-rows: 180px 270px;
   margin: 16px auto;
   padding: 16px;
   gap: 16px;
